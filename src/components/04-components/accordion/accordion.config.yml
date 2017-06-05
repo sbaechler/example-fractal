@@ -1,0 +1,12 @@
+status: prototype
+context:
+  accordion:
+    -
+      title: Accordion 1
+      content: Panel 1. Lorem ipsum dolor
+    -
+      title: Accordion 2
+      content: Panel 2. Lorem ipsum dolor
+    -
+      title: Accordion 3
+      content: Panel 3. Lorem ipsum dolor

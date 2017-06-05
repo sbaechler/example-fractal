@@ -1,0 +1,60 @@
+<h1>Colors</h1>
+
+<h2>Semantic Colors</h2>
+<div class="row color-palette mb-2">
+  {{#each semanticColors}}
+    <div class="col-xs-6 col-sm-4 col-md-3">
+      <div class="card">
+        <div class="card-img-top color-{{this}}"></div>
+        <div class="card-block">
+          <p class="card-text">{{this}}</p>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>
+
+
+<h2>Palette</h2>
+<div class="row color-palette mb-2">
+  {{#each palette}}
+    <div class="col-xs-6 col-sm-4 col-md-3">
+      <div class="card">
+        <div class="card-img-top brand-{{@index}}"></div>
+        <div class="card-block">
+          <p class="card-text">{{this}}</p>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>
+
+
+<h2>Grays</h2>
+<div class="row color-palette mb-2">
+  {{#each grays}}
+    <div class="col-xs-6 col-sm-4 col-md-3">
+      <div class="card">
+        <div class="card-img-top color-{{this}}"></div>
+        <div class="card-block">
+          <p class="card-text">{{this}}</p>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>
+
+<h2>Diagram Colors</h2>
+
+<div class="row color-palette mb-2">
+  {{#each diagramColors}}
+    <div class="col-xs-6 col-sm-4 col-md-3">
+      <div class="card">
+        <div class="card-img-top patch-{{@index}}"></div>
+        <div class="card-block">
+          <p class="card-text">{{this}}</p>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>

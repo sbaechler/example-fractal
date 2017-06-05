@@ -1,0 +1,49 @@
+title: "BKB palette"
+status: done
+order: 1
+context:
+  palette:
+    - blue
+    - blue-light
+    - blue-dark
+    - purple
+    - purple-light
+    - purple-dark
+    - rose
+    - meadow
+    - clementine
+    - uniform
+    - bruise
+
+  grays:
+    - black
+    - gray-dark
+    - gray
+    - gray-light
+    - gray-lighter
+    - white
+
+  diagramColors:
+    - a
+    - b
+    - c
+    - d
+    - e
+    - f
+
+  semanticColors:
+    - brand-primary
+    - brand-primary-active
+    - brand-secondary
+    - brand-secondary-active
+    - brand-success
+    - brand-info
+    - brand-warning
+    - brand-danger
+    - brand-success-bg
+    - brand-info-bg
+    - brand-warning-bg
+    - brand-danger-bg
+    - body-color
+    - line-color
+    - alt-bg-color

@@ -1,0 +1,43 @@
+<h1>Number formatting</h1>
+
+<div class="row my-2" ng-app="ui-doc">
+    <div class="col-xs-12">
+        <h2>Numbers</h2>
+
+        <p>Reference: <a href="/docs/localization" target="_top">Localization page</a></p>
+
+        <h3>Angular Examples</h3>
+
+        <p>\{{123.456 | number: 2}} (2 decimals)</p>
+        <p>\{{1030583123.456 | number: 2}} (2 decimals)</p>
+        <p>\{{123.456 | number}} (default filter)</p>
+        <p>\{{123.456 | number:0}} (no fractions)</p>
+
+
+        <p class="alert alert-info">
+            Always provide the currency argument to the currency filter.
+        </p>
+
+
+        <h2>Time and Date</h2>
+
+        <ul>
+            <li>Compact locale with decimal point: 9.00 Uhr, 15.30 Uhr</li>
+            <li>Dash without spaces for durations: 9.00&ndash;11.30&nbsp;Uhr</li>
+        </ul>
+
+        <p><code>9.00&amp;ndash;11.30&amp;nbsp;Uhr</code></p>
+
+        <h3>Angular Examples</h3>
+        <p>\{{1288323623006 | date:'medium'}} (medium)</p>
+        <p>\{{1288323623006 | date:'short'}} (short)</p>
+        <p>\{{1288323623006 | date:'fullDate'}} (fullDate)</p>
+        <p>\{{1288323623006 | date:'longDate'}} (longDate)</p>
+        <p>\{{1288323623006 | date:'mediumDate'}} (mediumDate)</p>
+        <p>\{{1288323623006 | date:'shortDate'}} (shortDate)</p>
+        <p>\{{1288323623006 | date:'mediumTime'}} (mediumTime)</p>
+        <p>\{{1288323623006 | date:'shortTime'}} (shortTime)</p>
+
+    </div>
+</div>
+

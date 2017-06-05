@@ -1,0 +1,22 @@
+# IntelliJ Idea
+**/*.iml
+**/.idea
+
+# Eclipse
+**/.classpath
+**/.idea
+**/.project
+**/.metadata
+**/.settings
+**/*~
+
+
+# Node
+node_modules
+build
+jspm_packages
+test-coverage/
+
+public/*.css
+public/*.map
+public/bundle.*
