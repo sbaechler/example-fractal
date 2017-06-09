@@ -1,6 +1,5 @@
----
-title: Displaying Data
----
+# Displaying Data
+
 
 ## Lists
 

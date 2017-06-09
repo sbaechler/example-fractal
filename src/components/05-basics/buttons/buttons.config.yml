@@ -1,0 +1,7 @@
+context:
+  primary:
+    class: btn-primary
+  secondary:
+    class: btn-secondary
+  disabled:
+    attribute: disabled

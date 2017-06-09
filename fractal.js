@@ -50,7 +50,7 @@ fractal.components.engine(hbs);
 const myCustomisedTheme = mandelbrot({
     skin: "black",
     // any other theme configuration values here
-    panels: ['html', 'info', 'notes'],
+    panels: ['html', 'notes', 'context', 'info'],
     lang: 'de'
 });
 
