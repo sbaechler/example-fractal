@@ -15,7 +15,8 @@ with a markdown plugin, or an online editor like [Dillinger](http://dillinger.io
 ## The Guide
 This guide is based on [Fractal](http://fractal.build/). The component structure is based
 on the [GE Predix Design system](https://medium.com/ge-design/ges-predix-design-system-8236d47b0891).
-The documentation structure is based on the [Salesforce Lighning Design System](https://www.lightningdesignsystem.com/).
+The documentation structure is based on the [Salesforce Lightning Design System](https://www.lightningdesignsystem.com/)
+with a bit of [Shopify Polaris](https://polaris.shopify.com) sprinkled in.
 
 
 ## Installation
