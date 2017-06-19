@@ -9,6 +9,8 @@
 
 ## Tiles
 
+## Charts
+
 ## Formatting
 
 ## Number Format
