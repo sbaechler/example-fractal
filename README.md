@@ -19,6 +19,20 @@ The documentation structure is based on the [Salesforce Lightning Design System]
 with a bit of [Shopify Polaris](https://polaris.shopify.com) sprinkled in.
 
 
+## Visual Regression test
+Visualize changes by comparing screenshots of the components. 
+This functionality is provided by [BackstopJS](https://github.com/garris/BackstopJS). 
+
+You can compare the current state to the latest built state.
+
+1. Make sure you have a local build by running `npm run build`.
+2. Create reference screenshots by running `npm run visual-reference`.
+3. To create the diffs, run `npm run visual`.
+4. Optionally update the references with the new state by running `npm run visual-approve`.
+
+The backstop configuration is in the folder tests/backstop/config.js.
+
+
 ## Installation
 Node.js 6.9 or higher is required.
 

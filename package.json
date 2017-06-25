@@ -13,6 +13,9 @@
   "scripts": {
     "start": "fractal start --sync",
     "build": "fractal build",
-    "create": "npm install && npm update && npm run build"
+    "create": "npm install && npm update && npm run build",
+    "visual": "backstop test --config=tests/backstop/config.js",
+    "visual-approve": "backstop approve --config=tests/backstop/config.js",
+    "visual-reference": "backstop reference --config=tests/backstop/config.js"
   }
 }

@@ -20,3 +20,5 @@ test-coverage/
 public/*.css
 public/*.map
 public/bundle.*
+tests/backstop/bitmaps/
+tests/backstop/reports/
