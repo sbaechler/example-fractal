@@ -17,5 +17,8 @@
     "visual": "backstop test --config=tests/backstop/config.js",
     "visual-approve": "backstop approve --config=tests/backstop/config.js",
     "visual-reference": "backstop reference --config=tests/backstop/config.js"
+  },
+  "devDependencies": {
+    "backstopjs": "^2.7.5"
   }
 }
