@@ -7,17 +7,17 @@ module.exports = {
     {
       name: "phone",
       width: 320,
-      height: 2000
+      height: 1000
     },
     {
       name: "tablet_v",
       width: 568,
-      height: 2000
+      height: 1000
     },
     {
       name: "desktop",
       width: 1200,
-      height: 2000
+      height: 1000
     }
   ],
   scenarios: [
@@ -26,21 +26,28 @@ module.exports = {
       label: "Landingpage",
       url: "http://localhost:3000/components/preview/landingpage",
       referenceUrl: `file://${rootPath}/build/components/preview/landingpage.html`,
-      selectors: ["document"]
+      selectors: ["document"],
     },
+    {
+      label: 'Buttons',
+      url: 'http://localhost:3000/components/preview/buttons',
+      referenceUrl: `file://${rootPath}/build/components/preview/buttons.html`,
+      selectors: ['.buttons-example'],
+      misMatchThreshold : 0.1,
+    }
     // Example configuration
     // {
     //   label: "BackstopJS Homepage",
     //   url: "https://garris.github.io/BackstopJS/",
-    //   hideSelectors: [],
-    //   removeSelectors: [],
+    //   hideSelectors: [],  // sets the element style to visibility:hidden
+    //   removeSelectors: [],  // sets the element style to display:none
     //   selectorExpansion: true,
     //   selectors: [
     //     ".row.firstPanel"
     //   ],
     //   readyEvent: null,
     //   delay: 500,
-    //   misMatchThreshold : 0.1,
+    //   misMatchThreshold : 0.1,  // 0.1 is the default.
     //   requireSameDimensions : true,
     //   onBeforeScript: "onBefore.js",
     //   onReadyScript: "onReady.js"
@@ -59,6 +66,6 @@ module.exports = {
   ],
   engine: "phantomjs",
   report: ["browser"],
-  cliExitOnFail: true,
-  debug: true
+  cliExitOnFail: false,
+  debug: false
 };

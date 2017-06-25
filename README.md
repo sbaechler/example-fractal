@@ -27,7 +27,7 @@ You can compare the current state to the latest built state.
 
 1. Make sure you have a local build by running `npm run build`.
 2. Create reference screenshots by running `npm run visual-reference`.
-3. To create the diffs, run `npm run visual`.
+3. To create the diffs, run `npm run visual`. Make sure the local server is running.
 4. Optionally update the references with the new state by running `npm run visual-approve`.
 
 The backstop configuration is in the folder tests/backstop/config.js.
