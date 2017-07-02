@@ -1,18 +1,9 @@
-# Displaying Data
-
-
 ## Lists
 
-## Table
+## Tables
 
 ## Tree
 
 ## Tiles
 
 ## Charts
-
-## Formatting
-
-## Number Format
-
-## Currency Format

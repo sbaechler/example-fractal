@@ -1,5 +1,5 @@
-title: "BKB palette"
-status: done
+title: "Color"
+status: wip
 order: 1
 context:
   palette:
@@ -9,11 +9,6 @@ context:
     - purple
     - purple-light
     - purple-dark
-    - rose
-    - meadow
-    - clementine
-    - uniform
-    - bruise
 
   grays:
     - black
@@ -47,3 +42,26 @@ context:
     - body-color
     - line-color
     - alt-bg-color
+
+  colorsOnWhite:
+    - brand-primary
+    - brand-primary-active
+    - brand-secondary
+    - brand-secondary-active
+    - brand-success
+    - brand-info
+    - brand-warning
+    - brand-danger
+    - black
+    - gray-dark
+    - gray
+
+  whiteOnColor:
+  - black
+  - gray-dark
+  - gray
+
+  darkOnColor:
+  - gray-light
+  - gray-lighter
+  - white

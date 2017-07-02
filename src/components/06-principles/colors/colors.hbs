@@ -58,3 +58,35 @@
     </div>
   {{/each}}
 </div>
+
+
+<h2>Accessibility</h2>
+<p>WCAG (Web Content Accessibility Guidelines) ensure that content is accessible by everyone,
+    regardless of disability or user device.
+    To meet these standards, text and interactive elements should have a color contrast ratio of
+    <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="_blank">at least 4.5:1</a>.
+    This ensures that viewers who cannot see the full color spectrum are able to read the text.
+</p>
+
+<h3>Colors on a white background</h3>
+<div class="row color-palette mb-2">
+    {{#each colorsOnWhite}}
+        <div class="col-xs-12 col-sm-6">
+            <div class="color-text on-white-{{@index}}">{{this}} on white</div>
+        </div>
+    {{/each}}
+</div>
+
+<h3>Neutrals on a colored background</h3>
+<div class="row color-palette mb-2">
+    {{#each whiteOnColor}}
+        <div class="col-xs-12 col-sm-6">
+            <div class="color-text  white-on-color-{{@index}}">white on {{this}}</div>
+        </div>
+    {{/each}}
+    {{#each darkOnColor}}
+        <div class="col-xs-12 col-sm-6">
+            <div class="color-text dark-on-color-{{@index}}">base on {{this}}</div>
+        </div>
+    {{/each}}
+</div>
