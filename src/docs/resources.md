@@ -3,6 +3,10 @@
 
 ## Links
 
+- [The Epic List of Content Strategy Resources](http://www.jonathoncolman.org/2013/02/04/content-strategy-resources/) 
+  by Jonathon Colman (Facebook)
+
+
 
 ## Third-party tools
 
