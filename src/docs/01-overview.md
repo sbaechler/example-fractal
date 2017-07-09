@@ -2,15 +2,29 @@
 title: Guidelines
 ---
 
+## Client
+
+### Company Goals
+
+### Mission Statement
+
+> Good merchandise, fair play and a square deal.
+
+
+## User
+
+### User Goals
+
 
 ## Design Principles
 
-Describe the key principals that drive your company.
+Describe the key principals that drive the website.
 
 
 ## About this Guide
 
 ### Documentation
+
 The documentation is written in Markdown using 
 [GitHub flavored markdown](https://guides.github.com/features/mastering-markdown/).
 
