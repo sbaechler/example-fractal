@@ -38,6 +38,8 @@ Node.js 6.9 or higher is required.
 
 Run `npm install`.
 
+To simplify the creating of new components install the [fractalcomp](https://www.npmjs.com/package/newfractalcomp) 
+package.
 
 ## Run locally
 

@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
-  "author": "b@chler.com",
+  "author": "Simon Bächler <b@chler.com>",
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/sbaechler/example-fractal"
+  },
   "dependencies": {
     "@frctl/fractal": "^1.1.3",
     "@frctl/handlebars": "^1.1.4",
@@ -20,5 +24,10 @@
   },
   "devDependencies": {
     "backstopjs": "^2.7.5"
-  }
+  },
+  "keywords": [
+    "fractal",
+    "patternlibrary",
+    "designsystem"
+  ]
 }
