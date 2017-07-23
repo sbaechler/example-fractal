@@ -1,5 +1,3 @@
-# Color
-
 ## Usage
 
 ### Primary Colors
