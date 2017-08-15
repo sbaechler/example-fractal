@@ -6,7 +6,7 @@
   "author": "Simon Bächler <b@chler.com>",
   "repository": {
     "type": "git",
-    "url":"https://github.com/sbaechler/example-fractal"
+    "url": "https://github.com/sbaechler/example-fractal"
   },
   "dependencies": {
     "@frctl/fractal": "^1.1.3",
