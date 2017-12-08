@@ -18,7 +18,7 @@ title: Guidelines
 
 ## Design Principles
 
-Describe the key principals that drive the website.
+Describe the key principals that drive the website in the order of their priority.
 
 
 ## About this Guide

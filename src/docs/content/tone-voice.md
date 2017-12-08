@@ -1,3 +1,0 @@
----
-title: Tone and Voice
----
