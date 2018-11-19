@@ -1,5 +1,7 @@
 # Example Design System
 
+> Design Systems are for People.
+
 ## Structure
 Fractal based styleguides consist of two parts:
 Components and Documentation. The Documentation part

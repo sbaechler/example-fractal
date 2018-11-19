@@ -3,5 +3,9 @@ context:
     class: btn-primary
   secondary:
     class: btn-secondary
+  cta:
+    class: btn-cta
+  destructive:
+    class: btn-destructive
   disabled:
     attribute: disabled
