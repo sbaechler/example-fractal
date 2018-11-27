@@ -12,7 +12,7 @@
     "@frctl/fractal": "^1.1.3",
     "@frctl/handlebars": "^1.1.4",
     "@frctl/mandelbrot": "^1.1.0",
-    "handlebars-helper-repeat": "^1.0.0"
+    "handlebars-helper-repeat": "^2.0.0"
   },
   "scripts": {
     "start": "fractal start --sync",
@@ -23,7 +23,7 @@
     "visual-reference": "backstop reference --config=tests/backstop/config.js"
   },
   "devDependencies": {
-    "backstopjs": "^2.7.5"
+    "backstopjs": "^3.8.5"
   },
   "keywords": [
     "fractal",
